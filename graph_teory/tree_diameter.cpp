@@ -6,6 +6,7 @@ int max_dist = -1;
 int farthest_node = 0;
 
 
+
 void dfs(int node, int parent, int current_ditance){
     if (current_ditance > max_dist){
         max_dist = current_ditance;
