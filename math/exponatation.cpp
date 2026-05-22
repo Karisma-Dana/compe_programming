@@ -9,12 +9,10 @@ long long power(long long base, long long exp) {
     base = base % MOD; 
 
     while (exp > 0) {
-       
         if (exp % 2 == 1) {
             res = (res * base) % MOD;
         }
         
-  
         base = (base * base) % MOD;
         exp /= 2;
     }
